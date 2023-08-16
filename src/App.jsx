@@ -17,7 +17,7 @@ function App() {
   return (
     <div className='w-full h-screen flex items-start'>
       
-      <div className='reltive w1/2 h-full flex flex-col'>
+      <div className='reltive w-1/2 h-full flex flex-col'>
         <div className='absolute top-[20%] left-[10%] flex flex-col'>
           <h1 className='text-4xl text-white font-bold my-4'>Transformez vos idées en réalité</h1>
           <p className='text-xl text-white font-normal' >Commencez gratuitement et obtenez des offres attrayantes de la communauté</p>
