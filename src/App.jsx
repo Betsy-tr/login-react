@@ -18,8 +18,8 @@ function App() {
     <div className='w-full h-screen flex items-start'>
       
       <div className='reltive w-1/2 h-full flex flex-col'>
-        <div className='absolute top-[20%] left-[10%] flex flex-col'>
-          <h1 className='text-4xl text-white font-bold my-4'>Transformez vos idées en réalité</h1>
+        <div className='absolute top-[15%] left-[5%] flex flex-col'>
+          <h1 className='text-4xl text-white font-bold my-4'>Transformez Vos Idées En Réalité</h1>
           <p className='text-xl text-white font-normal' >Commencez gratuitement et obtenez des offres attrayantes de la communauté</p>
         </div>
         <img src={cover_image} className='w-full h-full object-cover'></img>
@@ -30,7 +30,7 @@ function App() {
 
         <div className='w-full flex flex-col max-w-[500px]'>
           <div className='w-full flex flex-col mb-2'>
-            <h3 className='text-3xl font-semibold mb-2'>Connectez-vous</h3>
+            <h3 className='text-3xl font-semibold mb-2 text-[#022a1e]'>Connectez-vous</h3>
             <p className='text-base mb-2 '>Bienvenue! Veuillez saisir vos coordonnées.</p>
           </div>
 
@@ -54,7 +54,7 @@ function App() {
               <p className='text-sm font-medium whitespace-nowrap cursor-pointer underline underline-offset-2'>Mot de passe oublié ?</p>
             </div>
 
-            <div className='w-full flex flex-col'>
+            <div className='w-full flex flex-col py-5'>
               <button className='w-full text-white my-2 bg-[#060606] rounded-md p-4 text-center flex items-center justify-center'>
               S'identifier
               </button>
